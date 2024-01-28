@@ -34,7 +34,7 @@ export default async function Posts () { // START of a default function Posts //
                 return <div key={post.id}>
 
                         <h4>
-                            <Link href={`/Posts/${post.id}`}>{post.title}</Link>
+                            <Link href={`/posts/${post.id}`}>{post.title}</Link>
                         </h4>
                     </div>
 
