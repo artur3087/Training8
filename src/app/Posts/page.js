@@ -2,7 +2,7 @@
 
 
 
-// importing some black market's hot stuff needed for project, below: // 
+// importing some stuff needed for project, below: // 
 
 import Link from "next/link";
 

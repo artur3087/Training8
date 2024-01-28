@@ -9,11 +9,7 @@ export async function generateMetadata ( { params } ) { // START of generateMeta
 
 const response = await fetch (`https://jsonplaceholder.typicode.com/posts/${params.id}`);
 
-
-
 // response and return below: //
-
-
 const post = await response.json();
 
     return { // START of returning //
